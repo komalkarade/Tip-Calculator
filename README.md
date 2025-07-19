@@ -15,6 +15,8 @@ A simple and responsive web-based Tip Calculator that allows users to calculate 
 
 ## 📸 Screenshot
 
+<img width="1366" height="629" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/783db148-2910-4e41-862d-d1423c7602ad" />
+
 
 ## 🛠️ Technologies Used
 
@@ -22,5 +24,4 @@ A simple and responsive web-based Tip Calculator that allows users to calculate 
 - CSS
 - JavaScript
 
-## 📂 Folder Structure
 
