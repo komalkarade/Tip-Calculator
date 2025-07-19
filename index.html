@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Expense Tracker</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tip Calculator</h1>
+      </div>
+      <div class="inside-container">
+    <form id="card" onsubmit="event.preventDefault(); calculateTip();">
+          <h2 class="main">Tip Calculator</h2>
+          <div>
+            <h3>Bill Amount ($)</h3>
+            <input type="number" placeholder="" name="bill" />
+          </div>
+
+          <div>
+            <h3>Tip Percentage(%)</h3>
+            <input type="number" placeholder="" name="tip" />
+          </div>
+
+          <div>
+            <h3>Number of people</h3>
+            <input type="number" placeholder="" name="people"/>
+          </div>
+          <div class="button">
+          <button class="cal">Calculate</button>
+          <button class="re">Reset</button>
+          </div>
+                <div id="result"></div>
+
+        </form>
+      </div>
+    </div>
+<script src="index.js"></script>
+  </body>
+</html>
